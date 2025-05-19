@@ -8,3 +8,15 @@ dist-ssr
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/install-state.gz
+
+package-lock.json
+yarn.lock
+
